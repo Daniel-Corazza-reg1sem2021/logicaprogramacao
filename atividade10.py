@@ -1,3 +1,11 @@
+#Função 1 ---------
+def funcao1(N):
+  for number in range(int(N)):
+    if number % 5 == 0 and number % 2 != 0:
+      print(number)
+
+funcao1(input("Coloque o número aqui: "))
+
 #Função 2 -------
 def funcao2():
   num_entradas = int(input("Digite o numero de entradas: "))
