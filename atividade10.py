@@ -19,10 +19,21 @@ def funcao2():
 
 print (funcao2())
 
+#Função 3 --------
+def funcao3(lista):
+  numeros_maiores_que_5 = 0
+  for elemento in lista:
+    if elemento > 5:
+      numeros_maiores_que_5 += 1
+  return numeros_maiores_que_5
+
+#Adicione na lista por aqui:
+lista = []
+print (funcao3(lista))
 
 
 #Função 4 ---------
-def menu_futebol():
+def funcao4():
   opcao = input("Insira aqui a sua opção:")
   while opcao != 'z':
     if opcao == 'a':
@@ -33,4 +44,4 @@ def menu_futebol():
       break
     opcao = input()
     
-print (menu_futebol())
+print (funcao4())
