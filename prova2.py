@@ -44,7 +44,7 @@ def exerc4(lista):
   if medias_inferiores_que_7 * len(lista) > 0.25:
     return "Professor Coxa"
   else:
-    return "Professor Padrão"    
+    return "Professor Padrão" 
 lista = []
 
 
